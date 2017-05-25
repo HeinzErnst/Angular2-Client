@@ -1,0 +1,6 @@
+<ul class="Category">
+  <li *ngFor="let category of categories| async">
+    <span class="badge">{{category.id}}</span> {{category.descr}}
+  </li>
+</ul>
+
